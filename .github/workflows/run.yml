@@ -1,6 +1,7 @@
 name: Run Pytest
 
-on:push:
+on:
+  push:
 
 jobs:
   test:
@@ -15,7 +16,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install pytest
-          run: pip install pytest
+        run: pip install pytest
 
       - name: Run pytest
         run: python -m pytest 
