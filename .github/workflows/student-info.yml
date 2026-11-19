@@ -1,7 +1,7 @@
 
 name: Display Info 
 
-on: push 
+on: push: 
 
 jobs:
   DisplayInfo:
